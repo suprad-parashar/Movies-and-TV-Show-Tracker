@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	background-image: url("../res/login_background_image.jpg");
+}
+div {
+	background-color: #2F2F2FAA;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+div form {	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+img {
+	position: absolute;
+	padding: 25px;
+	width: 10%;
+	height: auto;
+}
+.text_fields {
+	margin: 5%;
+	padding: 10px;
+	margin-left: 0;
+}
+a {	
+	color: #FFCF00;	
+}
